@@ -1,0 +1,8 @@
+.logo1{
+    position: relative;
+    left: -230px;
+    font-size: 25px;
+}
+.logo1:hover{
+    color: white;
+}
