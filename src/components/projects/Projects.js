@@ -22,12 +22,15 @@ const Projects = () => {
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={projectOne}
+                    src1="https://github.com/chandanhm1999"
+
                 />
                 <ProjectsCard
                     title="E-commerce Website"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
                     src={projectTwo}
+                    src1="https://www.geeksforgeeks.org/"
                 />
                 <ProjectsCard
                     title="Chatting App"
