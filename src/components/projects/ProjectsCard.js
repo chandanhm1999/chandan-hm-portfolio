@@ -16,7 +16,7 @@ const ProjectsCard = ({ title, des, src, src1}) => {
       <div className="w-full mt-5 flex flex-col  gap-6">
         <div>
           <div className="flex items-center justify-between">
-            <h3 className="text-base uppercase text-designColor font-normal">
+            <h3 className="text-base uppercase text-yellow-300 font-normal">
               {title}
             </h3>
 

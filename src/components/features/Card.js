@@ -9,7 +9,7 @@ const Card = ({ title, des, icon }) => {
                     <div className="w-10 h-8 flex flex-col justify-between">
 
                         {icon ? (
-                            <span className="text-5xl text-designColor">{icon}</span>
+                            <span className="text-5xl text-yellow-300">{icon}</span>
                         ) : (
                             <>
                                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
@@ -24,7 +24,7 @@ const Card = ({ title, des, icon }) => {
                             {title}
                         </h2>
                         <p className="base">{des}</p>
-                        <span className="text-2xl text-designColor">
+                        <span className="text-2xl text-yellow-300">
                             <HiArrowRight />
                         </span>
                     </div>

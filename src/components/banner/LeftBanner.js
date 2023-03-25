@@ -19,7 +19,7 @@ const LeftBanner = () => {
                     <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
                     <h1 className="text-6xl font-bold text-white">
                         Hii, I'm {" "}
-                        <span className='text-designColor capitalize'>Chandan HM</span>
+                        <span className='text-yellow-300 capitalize'>Chandan HM</span>
                     </h1>
                     <h2 className='text-4xl font-bold text-white'>
 
@@ -29,7 +29,7 @@ const LeftBanner = () => {
                         <Cursor
                             cursorBlinking="false"
                             cursorStyle="|"
-                            cursorColor="#ff014f"
+                            cursorColor="yellow"
                         />
                     </h2>
                     <p className="text-base font-bodyFont leading-6 tracking-wide">

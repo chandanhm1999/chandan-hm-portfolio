@@ -71,7 +71,7 @@ const Testimonial = () => {
               width: "12px",
               height: "12px",
               color: "blue",
-              background: "#ff014f",
+              background: "#CDCD00",
               borderRadius: "50%",
               cursor: "pointer",
             }
@@ -110,7 +110,7 @@ const Testimonial = () => {
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                  <p className="text-xs uppercase text-yellow-300 tracking-wide mb-2">
                     Bound - Trolola
                   </p>
                   <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
@@ -161,7 +161,7 @@ const Testimonial = () => {
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                  <p className="text-xs uppercase text-yellow-300 tracking-wide mb-2">
                     Bound - Trolola
                   </p>
                   <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
@@ -212,7 +212,7 @@ const Testimonial = () => {
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                  <p className="text-xs uppercase text-yellow-300 tracking-wide mb-2">
                     Bound - Trolola
                   </p>
                   <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
