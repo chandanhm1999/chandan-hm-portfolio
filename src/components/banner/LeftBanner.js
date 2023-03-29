@@ -60,15 +60,15 @@ const LeftBanner = () => {
                             FIND ME IN
                         </h2>
                         <div className="flex gap-4">
-                            <Link href="https://www.linkedin.com/in/chandan-hm-b8319021a" className="bannerIcon">
+                            <a href="https://www.linkedin.com/in/chandan-hm-b8319021a" className="bannerIcon">
                                 <p className='text-white hover:text-yellow-400'><FaLinkedinIn /></p>
-                            </Link>
-                            <Link href='https://www.instagram.com/life_on_roads_20/' className="bannerIcon pb-2">
+                            </a>
+                            <a href='https://www.instagram.com/life_on_roads_20/' className="bannerIcon pb-2">
                                 <p className='text-white hover:text-yellow-400'><InstagramOutlined /></p>
-                            </Link>
-                            <Link href='https://www.facebook.com/profile.php?id=100009443863718' className="bannerIcon">
+                            </a>
+                            <a href='https://www.facebook.com/profile.php?id=100009443863718' className="bannerIcon">
                                 <p className='text-white hover:text-yellow-400'><FaFacebookF /></p>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div>
