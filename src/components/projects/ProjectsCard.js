@@ -1,7 +1,6 @@
 import React from 'react'
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
-import Link from "@material-ui/core/Link";
 
 const ProjectsCard = ({ title, des, src, src1}) => {
   return (

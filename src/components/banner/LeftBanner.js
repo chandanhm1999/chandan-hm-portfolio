@@ -2,7 +2,6 @@ import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
-import Link from "@material-ui/core/Link";
 import { InstagramOutlined } from "@ant-design/icons"
 import { createFromIconfontCN } from '@ant-design/icons';
 import { ConsoleSqlOutlined } from '@ant-design/icons';
