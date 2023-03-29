@@ -12,6 +12,12 @@ const Resume = () => {
     const [achievementData, setAchievementData] = useState(false);
     return (
         <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
+            <a className=" flex justify-end items-center text-center" href='Chandan HM RResume.pdf' download="Chandan HM RResume.pdf">
+                <button class="rounded-br-lg bg-yellow-500 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                    <svg class="text-white fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                    <span className='text-white'>Resume/CV</span>
+                </button>
+            </a>
             <div className="flex justify-center items-center text-center">
                 <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
             </div>
@@ -25,8 +31,8 @@ const Resume = () => {
                             setAchievementData(false)
                         }
                         className={`${educationData
-                                ? "border-designColor rounded-lg"
-                                : "border-transparent"
+                            ? "border-designColor rounded-lg"
+                            : "border-transparent"
                             } resumeLi`}
                     >
                         Education
@@ -51,8 +57,8 @@ const Resume = () => {
                             setAchievementData(false)
                         }
                         className={`${experienceData
-                                ? "border-designColor rounded-lg"
-                                : "border-transparent"
+                            ? "border-designColor rounded-lg"
+                            : "border-transparent"
                             } resumeLi`}
                     >
                         Experience
@@ -65,8 +71,8 @@ const Resume = () => {
                             setAchievementData(true)
                         }
                         className={`${achievementData
-                                ? "border-designColor rounded-lg"
-                                : "border-transparent"
+                            ? "border-designColor rounded-lg"
+                            : "border-transparent"
                             } resumeLi`}
                     >
                         Achievements

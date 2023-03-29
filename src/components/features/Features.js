@@ -15,38 +15,32 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Spending some time to set the right strategy gives you clear goals for business success, and connects your people and activities to those goals."
           icon={<FaBars />}
         />
         <Card
           title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Responsive websites built for an optimal user experience that achieves your business goals."
           icon={<AiFillAppstore />}
         />
         <Card
           title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Search engine optimization regulations always evolve; Make your website fast, easy to find, and reach the widest audience possible."
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Web Development"
+          des="From corporate website development, e-commerce, custom web applications and product configurators, our code is intelligent."
           icon={<FaMobile />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="UI/UX Design"
+          des="Our approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience."
           icon={<SiAntdesign />}
         />
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="E-Commerce Solution"
+          des="An eCommerce solution is a feature-filled, customisable online storefront and shopping cart that will be directly integrated into your website."
           icon={<FaGlobe />}
         />
       </div>
